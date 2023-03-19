@@ -407,3 +407,33 @@ i{
   text-decoration: none;
   cursor: pointer;
 }
+.logo1{
+    min-height: 150px;
+    line-height: 150px;
+    width: 150px;
+    padding-top: 120px;
+}
+.ig1{
+    height:500px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.btlearn{
+    background-color: #002970;
+    color: white;
+    padding: 15px 24px 15px 24px;
+    border-radius: 40px;
+    border: 0px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-top: 20px;
+}
+.btlearn:hover, .btlearn:active{
+    background-color: #00baf2;
+}
