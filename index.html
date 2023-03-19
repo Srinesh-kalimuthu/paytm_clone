@@ -3,9 +3,13 @@
 <head>
     <title>Paytm: Secure and Fast UPI Payment</title>
     <link rel="stylesheet" href="./assets/style.css">
-    <script type="text/javascript" src="..\assets\script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
 </head>
 <body>
+    <script type="text/javascript" src="/assets/script.js"></script>
     <div class="navi">
         <div class="left">
             <img src="https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png" width="85%">
@@ -40,7 +44,7 @@
         </div>
         <div class="right">
             <div>
-               <button onmouseover="onHover(event)" onmouseleave="onLeave(event)" class="sbt"> <b>Sign In</b><img class="pic" src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/loginImg.svg" width="35px"></button>
+               <button id="mySbt" class="sbt"> <b>Sign In</b><img class="pic" src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/loginImg.svg" width="35px"></button>
             </div>
         </div>
     </div>
@@ -179,6 +183,35 @@
                         <img class="ig" src="https://assetscdn1.paytm.com/images/catalog/view_item/728701/1618577020961.png" height="70%" >
                     </div>
                 </div>
+            </div>
+            <div class="log" class="clearfix" id="myModal">
+                <span class="close">&times;</span>
+                <div id="segment-2">
+                    <div class="seg">
+                    <h3 class="head01">To Login into your Paytm Web account</h3>
+                </div>
+                <div class="seg2">
+                    <p>1.Open Paytm App</p>
+                    <p>2.Tap Scan <img src="https://accounts.paytm.com/pages/themesv2/images/mp-web/q-rcode.svg" class="ime" width="35px"> option available at the bottom</p>
+                    <p>3.Point Paytm Scan at QR Code to login</p>
+                </div>
+                <div class="vid1">
+                <span class="vid"><i class="bi bi-play-circle-fill"></i> Watch Video </span>
+                </div>
+                <div class="crt">
+                    <p>To create an account download Paytm App</p>
+                </div>
+                <div class="pap" class="clearfix">
+                <div class="plystr">
+                    <button class="py"><span><image src="https://accounts.paytm.com/pages/themesv2/images/mp-web/googleplay.svg"><b>Google Play</b></image></span></button>
+                </div>
+                <div><button class="py1"> <span><image src="https://accounts.paytm.com/pages/themesv2/images/mp-web/appstore.svg"><b>App Store</b></image> </span></button> </div>
+            </div>
+        </div>
+                <div id="segment-1">
+                </div>
+
+            </div>
             </div>
 
 </body>

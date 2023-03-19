@@ -1,3 +1,14 @@
-const sbtImg = document.getElementById("pic");
-const onHover = (e)=>(sbtImg.src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/loginImg.svg");
-const onLeave = (e)=>(sbtImg.src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/logoutImg.svg");
+var log = document.getElementById("myModal");
+var btn = document.getElementById("mySbt");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  log.style.display = "block";
+}
+span.onclick = function() {
+  log.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == log) {
+    log.style.display = "none";
+  }
+}
