@@ -1,9 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
+*
 .navi{
     height: 60px;
     width: 100%;
@@ -41,33 +36,6 @@
     font-weight: bold;
 
 }
-.sub_options{
-    position: absolute;
-    display: none;
-}
-.sub_options ul{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #ccc;
-    width: 100% auto;
-    padding: 10px;
-    margin-left: -5px;
-    background-color: white;
-    box-shadow: 10px 10px 20px rgba(0,0,0,0,0.1);  
-    border-radius: 5px;  
-}
-.mid_options:hover .sub_options,
-.mid_options:focus .sub_options{
-    display: block;
-}
-.sub_options ul ul{
-    padding: 10px 5px 15px 5px;
-    font-size: 1rem;
-    display: flex;
-    justify-content: space-between;
-    width: 180px;
-
-}
 .nextIcon{
     position: relative;
     padding-right: 10px;
@@ -92,7 +60,6 @@
 
 }
 .pic{
-    padding-left: 5px;
     margin-left: 2px;
 }
 .kyc{
@@ -107,7 +74,7 @@
     font-size: large;
 }
 .sec-2{
-    height: 550px;
+    height: 450px;
     width: 100%;
     display: flex;
 }
@@ -116,7 +83,7 @@
     width: 50%;
     align-items: center;
     justify-content: center;
-    padding-inline-start: 130px;
+    padding-inline-start: 200px;
 }
 .right-sec{
     height: 100%;
@@ -126,28 +93,21 @@
     padding-top: 30px;
 }
 .logo{
-    min-height: 90px;
-    line-height: 90px;
-    width: 90px;
-    padding-top: 120px;
+    height: 60px;
+    width: 60px;
 }
 .hd{
     font-size: 40px;
      font-weight: 1000;
-     padding-top: 40px;
 }
 .para{
     font-size: 20px;
     font-weight: 500;
     width: 450px;
-    min-height: 30px;
     line-height: 30px;
-
 }
 .sbt{
-    width: 100px;
-    min-height: 40px;
-    border-radius: 25px;
+    border-radius: 30px;
     display: flex;
     justify-content: center;
     background-color: #00baf2;
@@ -155,13 +115,8 @@
     border: none;
     outline: none;
     color: white;
-    font-weight:bolder;
-    font-size: 200;
+    font-weight: bold;
 }
-.sbt:hover {
-    background-color: #002970;
-    color: white;
-  }
 .bt{
     background-color: black;
     color: white;
@@ -171,11 +126,11 @@
     display: flex;
     justify-content: center;
     align-items:center ;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .ig{
-    height: 500px;
-    width: 500px;
+    height: 428px;
+    width: 428px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,7 +142,6 @@ svg{
     width: 100%;
     background-color: #00baf2;
     color: white;
-    min-height:300px;
 }
 .inner-content{
     width: 80%;
@@ -211,79 +165,42 @@ svg{
 }
 .in{
     font-weight: bold;
-    min-height: 25px;
-    line-height: 25px;
-    padding-top: 1%;
-    text-align: center;
+    line-height: 8px;
 }
 .mob:hover {
     transform: scale(1.1); 
     transform: scale(1.1); 
     transform: scale(1.1); 
   }
-  .booking{
-    width: 100%;
-    background-color: #002970;
-    color: white;
-    min-height:300px;
-}
-.inner-content2{
-    width: 80%;
-    margin: auto;
-    font-weight: bolder;
-}
-.head2{
-    font-size: 30px;
-    padding-top: 30px;
-}
-.book-opt{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    padding-bottom: 30px;
-}
-.mob:hover {
-    transform: scale(1.1); 
-    transform: scale(1.1); 
-    transform: scale(1.1); 
-  }
-  .instruments{
-    background-color:rgb(231, 235, 239);
-  }
-#inst-pyt{
-background-color:rgb(231, 235, 239);
-padding-top: 50px;
-margin-left: 120px;
-font-weight: 1500;
-}
- .instrumentsec-2{
-    height: 650px;
-    width: 85%;
-    display: flex;
-    margin-top: 30px;
-    margin-left: 100px;
+
+.log{
+    width: 60%;
+    min-height: 70%;
+    box-shadow: 0 8px 32px 0 rgba(119, 119, 127, 0.37);
+    background:gray;
+    line-height: 80%;
     border-radius: 20px;
-    box-shadow: 20px;
-    background-color: white;
-}
- .instrumentleft-sec{
-    height: 100%;
-    width: 50%;
-    align-items: center;
     justify-content: center;
-    padding-inline-start: 130px;
-}
-.instrumentright-sec{
-    height: 100%;
+    align-items: center;
+
+    margin-left: 240px;
+  }
+/* #segment-1{
     width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 30px;
+    min-height: 70%;
+    background-color: red;
+    float: right;
+    border-radius: 20px;
+  }
+#segment-2{
+    width: 50%;
+    min-height: 70%;
+    background-color: #00baf2;
+    float: left;
+    border-radius: 20px;
 }
-.para1{
-    font-size: 18px;
-    font-weight: 500;
-    width: 450px;
-    min-height: 30px;
-    line-height: 30px;
-}
+.clearfix ::after{
+    content: "";
+    display: block;
+    clear: both;
+} */
