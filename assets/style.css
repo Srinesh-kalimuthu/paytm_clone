@@ -437,3 +437,7 @@ i{
 .btlearn:hover, .btlearn:active{
     background-color: #00baf2;
 }
+.bt:hover, .bt:active{
+    background-color: white;
+    color: #000;
+}
