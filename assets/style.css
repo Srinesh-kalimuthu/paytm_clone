@@ -433,6 +433,7 @@ i{
     justify-content: center;
     align-items:center ;
     margin-top: 20px;
+    text-decoration-line: none;
 }
 .btlearn:hover, .btlearn:active{
     background-color: #00baf2;
