@@ -7,7 +7,7 @@
 #navigation{
     width: 100%;
     min-height: 100px;
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     line-height: 100px;
     align-items: center;
     padding-left: 5%;
@@ -68,24 +68,72 @@
     display: block;
     clear: both;
 }
-.sections{
-    width: 100%;
-    min-height: 700px;
-    line-height: 700px;
-    background-color: F6F7FA;
-    box-shadow: 80px;
+.logo1{
+    width: 250px;
+    min-height: 20px;
+    line-height: 20px;
+    margin-left: 0px;
+    margin-top: 10%;
+
 }
-.section-left{
-    background-color: gray;
-    width: 50%;
-    min-height: 500px;
-    line-height: 500px;
-    float: left;
+.hd{
+    font-size: 50px;
+    font-weight: 1000;
+     padding-top: 40px;
 }
-.section-right{
-    background-color: lightgray;
+.instrumentsec-2{
+    height: 650px;
+    width: 85%;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 20px;
+    box-shadow: 20px;
+    background-color: white;
+}
+ .instrumentleft-sec{
+    height: 100%;
     width: 50%;
-    min-height: 500px;
-    line-height: 500px;
-    float: right;
+    align-items: center;
+    justify-content: center;
+    padding-inline-start: 130px;
+}
+.instrumentright-sec{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+.para1{
+    font-size: 18px;
+    font-weight: 500;
+    width: 450px;
+    min-height: 30px;
+    line-height: 30px;
+}
+.ig1{
+    height: 450px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.logo2{
+    width: 400px;
+    min-height: 20px;
+    line-height: 20px;
+}
+#lon{
+    font-size: xx-small;
+    padding-top: 10px;
+}
+.b1{
+    margin-top: 10px;
+    width: 120px;
+}
+.b2{
+    margin-top: 10px;
+    width: 90px;
+    margin-left: 50px;
 }
