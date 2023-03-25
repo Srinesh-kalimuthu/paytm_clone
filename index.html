@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <script type="text/javascript" src="./assets/script.js"></script>
+
     <div class="navi">
         <div class="left">
             <img src="https://assetscdn1.paytm.com/images/catalog/category/5165/paytm_logo.png" width="85%">
@@ -45,7 +45,7 @@
         </div>
         <div class="right">
             <div>
-               <button id="mySbt" class="sbt"> <b>Sign In</b><img class="pic" src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/loginImg.svg" width="35px"></button>
+               <button id="myBtn" class="sbt"> <b>Sign In</b><img class="pic" src="https://pwebassets.paytm.com/commonwebassets/paytmweb/header/images/loginImg.svg" width="35px"></button>
             </div>
         </div>
     </div>
@@ -217,9 +217,10 @@
                     </div>
             </div>
             </div>
-
-            <div class="log" class="clearfix" id="myModal">
-                <span class="close">&times;</span>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+            <div class="log" class="clearfix">
                 <div id="segment-2">
                     <div class="seg">
                     <h3 class="head01">To Login into your Paytm Web account</h3>
@@ -236,17 +237,21 @@
                     <p>To create an account download Paytm App</p>
                 </div>
                 <div class="pap" class="clearfix">
-                <div class="plystr">
-                    <button class="py"><span><image src="https://accounts.paytm.com/pages/themesv2/images/mp-web/googleplay.svg"><b>Google Play</b></image></span></button>
+                <!-- <div > -->
+                    <span class="plystr">
+                        <button class="py"><image src="https://accounts.paytm.com/pages/themesv2/images/mp-web/googleplay.svg"><b>Google Play</b></image></button>
+                <button class="py"> <image src="https://accounts.paytm.com/pages/themesv2/images/mp-web/appstore.svg"><b>App Store</b></image> </button> </span>
+            <!-- </div> -->
                 </div>
-                <div><button class="py1"> <span><image src="https://accounts.paytm.com/pages/themesv2/images/mp-web/appstore.svg"><b>App Store</b></image> </span></button> </div>
-            </div>
         </div>
                 <div id="segment-1">
-                </div>
-
-            </div>
-            </div>
-            
+                    <div >
+                        <img class="imq" src="./images/qr.png" >
+                        </div>
+                    <div class="qr-img"><p>Scan QR code with Paytm App to login</p>
+                    </div>
+        </div>
+        </div>
+        <script type="text/javascript" src="./assets/script.js"></script>
 </body>
 </html>
